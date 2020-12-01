@@ -24,11 +24,12 @@ function Tempo(props){
 export function getStaticProps(){
     const staticDate = new Date();
     const staticDateString = staticDate.toGMTString()
-    
+    //não vai para  o front end
     return {
         props: {
             staticDateString
-        }
+        },
+        revalidate:1
     }
 }
 export default Tempo
