@@ -9,6 +9,10 @@ function Home(){
              <Link href="/sobre">
                 <a>Sobre nós</a>
             </Link>
+            <br/>
+            <Link href="/tempo">
+                <a>Tempo</a>
+            </Link>
          </div>
          
     )
